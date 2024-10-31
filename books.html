@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Book Collection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            background-color: #F5EDED;
+            color: #333;
+        }
+        header, footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #6482AD;
+            color: #fff;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            margin-top: 20px;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a u {
+            text-decoration: underline;
+        }
+        nav ul li a:hover {
+            color: #E2DAD6;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #E2DAD6;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        h3 {
+            margin-bottom: 0;
+        }
+        p {
+            margin: 5px 0;
+        }
+        .book {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .book img {
+            width: 100px;
+            height: auto;
+            margin-right: 20px;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        .rating {
+            color: #FFD700;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Book Collection</h1>
+        <p><b><i>A showcase of my favorite books</i></b></p>
+        <nav>
+            <ul>
+                <li><a href="#academic"><u>Academic</u></a></li>
+                <li><a href="#fiction"><u>Fiction</u></a></li>
+                <li><a href="#non-fiction"><u>Non-Fiction</u></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="academic">
+        <h2>Academic</h2>
+        <div class="book">
+            <img src="https://m.media-amazon.com/images/I/61Pgdn8Ys-L._AC_UF1000,1000_QL80_.jpg">
+            <div>
+                <h3>Title: Introduction to Algorithms</h3>
+                <p><strong>Author:</strong> Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein</p>
+                <p><em>Review:</em> A comprehensive textbook on algorithms, widely used in computer science education.</p>
+                <p><span class="rating">&starf;&starf;&starf;&starf;&starf;</span></p>
+            </div>
+        </div>
+        <div class="book">
+            <img src="https://rukminim2.flixcart.com/image/850/1000/k4lmv0w0/book/6/3/0/let-us-c-original-imafnenjsgn6hzbh.jpeg?q=90&crop=false">
+            <div>
+                <h3>Title: Let Us C</h3>
+                <p><strong>Author:</strong> Yashavant Kanetkar</p>
+                <p><em>Review:</em> A well-known introductory book on C programming, suitable for beginners.</p>
+                <p><span class="rating">&starf;&starf;&starf;&starf;&star;</span></p>
+            </div>
+        </div>
+        <div class="book">
+            <img src="https://m.media-amazon.com/images/I/81SwKCia7VL._AC_UF1000,1000_QL80_.jpg">
+            <div>
+                <h3>Title: Operating System Concepts</h3>
+                <p><strong>Author:</strong> Abraham Silberschatz, Peter B. Galvin, Greg Gagne</p>
+                <p><em>Review:</em> A foundational textbook for understanding operating systems, widely used in academia.</p>
+                <p><span class="rating">&starf;&starf;&starf;&starf;&starf;</span></p>
+            </div>
+        </div>
+        <div class="book">
+            <img src="https://images-na.ssl-images-amazon.com/images/P/8120311779.01.LZZZZZZZ.jpg">
+            <div>
+                <h3>Title: Data Structures Using C</h3>
+                <p><strong>Author:</strong> Aaron M. Tanenbaum</p>
+                <p><em>Review:</em> A detailed guide to data structures using the C programming language, ideal for computer science students.</p>
+                <p><span class="rating">&starf;&starf;&starf;&starf;&star;</span></p>
+            </div>
+        </div>
+        <div class="book">
+            <img src="https://m.media-amazon.com/images/I/71iXOvRKzaL._AC_UF1000,1000_QL80_.jpg">
+            <div>
+                <h3>Title: Introduction to Database Systems</h3>
+                <p><strong>Author:</strong> Abraham Silberschatz, Henry F. Korth, S. Sudarshan</p>
+                <p><em>Review:</em> A comprehensive resource on database management systems, covering theoretical and practical aspects.</p>
+                <p><span class="rating">&starf;&starf;&starf;&starf;&star;</span></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="fiction">
+        <h2>Fiction</h2>
+        <div class="book">
+            <img src="https://m.media-amazon.com/images/I/61HAE8zahLL._AC_UF1000,1000_QL80_.jpg">
+            <div>
+                <h3>Title: The Alchemist</h3>
+                <p><strong>Author:</strong> Paulo Coelho</p>
+                <p><em>Review:</em> A profound story about following one's dreams and finding one's destiny.</p>
+                <p><span class="rating">&starf;&starf;&starf;&starf;&starf;</span></p>
+            </div>
+        </div>
+        <div class="book">
+            <img src="https://m.media-amazon.com/images/I/61y4XeiQLnL._AC_UF1000,1000_QL80_.jpg">
+            <div>
+                <h3>Title: The Old Man and the Sea</h3>
+                <p><strong>Author:</strong> Ernest Hemingway</p>
+                <p><em>Review:</em> A classic tale of an old fisherman's struggle with a giant marlin.</p>
+                <p><span class="rating">&starf;&starf;&starf;&starf;&star;</span></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="non-fiction">
+        <h2>Non-Fiction</h2>
+        <div class="book">
+            <img src="https://m.media-amazon.com/images/I/61pZyTuNDYL._AC_UF1000,1000_QL80_.jpg">
+            <div>
+                <h3>Title: The Monk Who Sold His Ferrari</h3>
+                <p><strong>Author:</strong> Robin Sharma</p>
+                <p><em>Review:</em> An inspiring fable about achieving one's dreams and finding true happiness.</p>
+                <p><span class="rating">&starf;&starf;&starf;&starf;&starf;</span></p>
+            </div>
+        </div>
+        <div class="book">
+            <img src="https://m.media-amazon.com/images/I/81YkqyaFVEL._AC_UF1000,1000_QL80_.jpg">
+            <div>
+                <h3>Title: Atomic Habits</h3>
+                <p><strong>Author:</strong> James Clear</p>
+                <p><em>Review:</em> A practical guide to building good habits and breaking bad ones through small changes.</p>
+                <p><span class="rating">&starf;&starf;&starf;&starf;&star;</span></p>
+            </div>
+        </div>
+        <div class="book">
+            <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1648738209i/60726415.jpg">
+            <div>
+                <h3>Title: Don't Believe Everything You Think</h3>
+                <p><strong>Author:</strong> Joseph Nguyen</p>
+                <p><em>Review:</em> A thoughtful exploration of the nature of thoughts and how to navigate mental challenges.</p>
+                <p><span class="rating">&starf;&starf;&starf;&starf;&star;</span></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Hammad's Book Collection</p>
+    </footer>
+</body>
+</html>
